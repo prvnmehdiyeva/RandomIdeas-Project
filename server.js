@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, "public")))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-//CORS middleware
+//CORS middlewarex  
 app.use(
   cors({
     origin: ["http://localhost:5000", "http://localhost:3000"],
